@@ -2,6 +2,7 @@
   "modules": [
     {
       "name": "Fun",
+      "version": "0.1",
       "description": "A selection of fun commands for everyone to enjoy.",
       "path": "modules/fun.py",
       "author": "Jewel Mahanta"
