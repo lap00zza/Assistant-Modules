@@ -1,7 +1,7 @@
 from assistant import command
 
 
-class UtilityCommands:
+class FunCommands:
     def __init__(self, assistant):
         self.assistant = assistant
 
@@ -11,4 +11,4 @@ class UtilityCommands:
 
 
 def load(assistant):
-    assistant.add_module(UtilityCommands(assistant))
+    assistant.add_module(FunCommands(assistant))
