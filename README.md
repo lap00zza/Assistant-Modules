@@ -25,11 +25,11 @@ def load(assistant):
 3. Edit the `assistant-manifest.json` file and add an entry to your module. Example entry:
 ```json
 {
-  "name": "Module_Name", // example: Fun 
-  "version": "Major.Minor", // example: 0.1
-  "description": "A short description.", // example: Does fun things
-  "path": "realtive path to your module from root.", // example: modules/fun.py
-  "author": "your name" // example: John Doe
+  "name": "Module_Name",
+  "version": "Major.Minor",
+  "description": "A short description.",
+  "path": "realtive path to your module from root.",
+  "author": "your name"
 }
 ```
 4. Send a Pull Request.
