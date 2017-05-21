@@ -22,7 +22,16 @@ def load(assistant):
 ### How do I get my module listed?
 1. Fork this repository.
 2. Create a module. Be sure to place your module in the modules directory. Once done, push it to the forked repository.
-3. Edit the `assistant-manifest.json` file and add an entry to your module.
+3. Edit the `assistant-manifest.json` file and add an entry to your module. Example entry:
+```json
+{
+  "name": "Module_Name", // example: Fun 
+  "version": "Major.Minor", // example: 0.1
+  "description": "A short description.", // example: Does fun things
+  "path": "realtive path to your module from root.", // example: modules/fun.py
+  "author": "your name" // example: John Doe
+}
+```
 4. Send a Pull Request.
 
 ### Important Links
