@@ -1,0 +1,10 @@
+{
+  "modules": [
+    {
+      "name": "Fun",
+      "description": "A selection of fun commands for everyone to enjoy.",
+      "path": "modules/fun.py",
+      "author": "Jewel Mahanta"
+    }
+  ]
+}
